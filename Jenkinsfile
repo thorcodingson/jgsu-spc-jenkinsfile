@@ -7,6 +7,7 @@ pipeline {
     stages {
         // implicit checkout stage
 
+
         stage('Build') {
             steps {
                 sh './mvnw clean package'
